@@ -1,0 +1,76 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Google+Font:wght@400&display=swap');
+body {
+    font-family: 'Google Font', sans-serif;
+    color: #ff6347;
+    margin: 01.5rem;
+    background-color: hwb(141 9% 7%);
+    padding: 1.2rem;
+    background-color: hsl(0, 66%, 63%);
+}
+h1,h2 {
+    font-size: 50px;
+    font-family: 'Google Font', sans-serif;
+    color: hsl(0, 66%, 63%);
+    text-align: center;
+}
+/* Header */
+li {
+    list-style-type: none;
+}
+header {
+    background-color: hsl(9, 82%, 18%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #4736361a;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: hsl(138, 76%, 57%);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
